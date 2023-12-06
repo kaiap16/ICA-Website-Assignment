@@ -18,7 +18,6 @@
         ));
 
     }
-    
 
     function ica_footer_sidebars(){
         $footer_layout = get_theme_mod('ica_footer_widget_count', '2');
