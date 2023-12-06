@@ -80,31 +80,6 @@
             ))
         );
 
-        // Second Footer
-        // $wp_customize->add_setting('ica_footer2_colour', array(
-        //     'default' => '#000043',
-        // ));
-        
-        // $wp_customize->add_control(
-        //     new WP_Customize_Color_Control($wp_customize, 'ica_footer2_colour', array(
-        //         'label' => 'Choose Second Footer Background Color',
-        //         'section' => 'ica_footer_options',
-        //         'settings' => 'ica_footer2_colour'
-        //     ))
-        // );
-
-         //Second Text
-        //  $wp_customize->add_setting('ica_footer2_text_colour', array(
-        //     'default' => '#ffffff',
-        // ));
-        
-        // $wp_customize->add_control(
-        //     new WP_Customize_Color_Control($wp_customize, 'ica_footer2_text_colour', array(
-        //         'label' => 'Choose Second Footer Text Color',
-        //         'section' => 'ica_footer_options',
-        //         'settings' => 'ica_footer2_text_colour'
-        //     ))
-        // );
 
         //Footer Widgets
         $wp_customize -> add_setting('ica_firstfooter_widget_count', array(

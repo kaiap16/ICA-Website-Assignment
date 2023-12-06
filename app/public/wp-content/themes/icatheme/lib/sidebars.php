@@ -17,37 +17,8 @@
             'after_widget' => '</section>'
         ));
 
-
-        // //Footer sidebars
-        // register_sidebar(array(
-        //     'id' => 'first-footer-sidebar',
-        //     'name' => 'First Footer Sidebar',
-        //     'description' => 'Sidebar for blog posts page',
-        //     'before_widget' => '<section id="%1$s" class="sidebar-widget %2$s">', //generates id
-        //     'after_widget' => '</section>'
-        // ));
-        // register_sidebar(array(
-        //     'id' => 'second-footer-sidebar',
-        //     'name' => 'Second Footer Sidebar',
-        //     'description' => 'Sidebar for blog posts page',
-        //     'before_widget' => '<section id="%1$s" class="sidebar-widget %2$s">', //generates id
-        //     'after_widget' => '</section>'
-        // ));
-        // register_sidebar(array(
-        //     'id' => 'third-footer-sidebar',
-        //     'name' => 'Third Footer Sidebar',
-        //     'description' => 'Sidebar for blog posts page',
-        //     'before_widget' => '<section id="%1$s" class="sidebar-widget %2$s">', //generates id
-        //     'after_widget' => '</section>'
-        // ));
-        // register_sidebar(array(
-        //     'id' => 'fourth-footer-sidebar',
-        //     'name' => 'Fourth Footer Sidebar',
-        //     'description' => 'Sidebar for blog posts page',
-        //     'before_widget' => '<section id="%1$s" class="sidebar-widget %2$s">', //generates id
-        //     'after_widget' => '</section>'
-        // ));
     }
+    
 
     function ica_footer_sidebars(){
         $footer_layout = get_theme_mod('ica_footer_widget_count', '2');

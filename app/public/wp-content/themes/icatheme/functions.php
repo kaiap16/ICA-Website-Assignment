@@ -1,6 +1,6 @@
 <?php
 
-	show_admin_bar(false);
+	show_admin_bar(true);
 
 	require_once("lib/navigation.php");
 	require_once("lib/enqueue-assets.php");

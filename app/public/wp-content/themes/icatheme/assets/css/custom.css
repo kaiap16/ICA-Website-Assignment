@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Poppins;
+    src: url("C:\Users\kaiap\Downloads\Poppins\Poppins-Regular.ttf");
+}
+
+
 .navbar ul{
     display: flex;
     list-style: none;
@@ -21,7 +27,9 @@
 body{ 
     padding-top: 20px;
     background-color: white;
+    font-family: Poppins;
 } 
+
 
 footer{
     padding-left: 20px;

@@ -31,7 +31,7 @@
 ?>
 		<div class="col-4">
 			<!-- Prepped for Sidebar -->
-			<h4>Featured Articles</h4>
+			<!-- <h4>Featured Articles</h4> -->
 		</div>
 	</div>
 </div>
