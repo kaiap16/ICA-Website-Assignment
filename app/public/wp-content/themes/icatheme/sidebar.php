@@ -1,5 +1,5 @@
 <aside role="complimentary">
-                <h4>Sidebar For Search</h4>
+                <!-- <h4>Sidebar For Search</h4> -->
 
                 <?php
                     if(is_active_sidebar("primary-sidebar")){
