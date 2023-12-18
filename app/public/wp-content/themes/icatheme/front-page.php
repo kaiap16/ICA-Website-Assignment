@@ -6,7 +6,7 @@
     
 		<div class="row">
 
-			<div class="col-6">
+			<div class="col-4">
 			<?php get_sidebar(); ?>
 
 			</div>	

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>">
+<html <?php language_attributes(); ?>>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,7 +24,7 @@
       </nav>
     </div>
     <div class="col-4"><?php get_search_form(true)?></div>
-  </div>
+  </div>  
 </div>
 </header>
 

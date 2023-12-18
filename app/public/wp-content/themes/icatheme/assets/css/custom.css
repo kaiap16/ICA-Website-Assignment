@@ -3,6 +3,11 @@
     src: url("C:\Users\kaiap\Downloads\Poppins\Poppins-Regular.ttf");
 }
 
+@font-face {
+    font-family: Oswald;
+    src: url("C:\Users\kaiap\Downloads\Oswald");
+}
+
 
 .navbar ul{
     display: flex;
@@ -26,10 +31,22 @@
 
 body{ 
     padding-top: 20px;
-    background-color: white;
+    padding-left: 60px;
+    padding-right: 60px;
     font-family: Poppins;
 } 
 
+/* not working on h2,h3 */
+h1,h2,h3{ 
+    color: #86448C;
+    font-family: Oswald;
+}
+
+#button {
+    color: white;
+    border-radius: 10px;
+    background-color: #A264A8;
+}
 
 footer{
     padding-left: 20px;
