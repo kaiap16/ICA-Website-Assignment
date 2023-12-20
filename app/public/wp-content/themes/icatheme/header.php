@@ -23,7 +23,7 @@
         ?>
       </nav>
     </div>
-    <div class="col-4"><?php get_search_form(true)?></div>
+    <div class="col-4" ><?php get_search_form(true)?></div>
   </div>  
 </div>
 </header>

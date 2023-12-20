@@ -19,6 +19,25 @@
 
     }
 
+    function ica_courses_widgets(){
+        register_sidebar(array(
+            'id' => 'courses-sidebar',
+            'name' => 'Courses Filter Sidebar',
+            'description' => 'Sidebar for courses page',
+            'before_widget' => '<section id="%1$s" class="sidebar-widget %2$s">', //generates id
+            'after_widget' => '</section>'
+        ));
+
+        // register_sidebar(array(
+        //     'id' => 'second-sidebar',
+        //     'name' => 'Second Sidebar',
+        //     'description' => 'Sidebar for blog posts page',
+        //     'before_widget' => '<section id="%1$s" class="sidebar-widget %2$s">', //generates id
+        //     'after_widget' => '</section>'
+        // ));
+
+    }
+
     function ica_footer_sidebars(){
         $footer_layout = get_theme_mod('ica_footer_widget_count', '2');
 
@@ -34,6 +53,7 @@
     }
     add_action('widgets_init', 'ica_sidebar_widgets');
     add_action('widgets_init', 'ica_footer_sidebars');
+    add_action('widgets_init', 'ica_courses_widgets');
 
 
 ?>

@@ -9,6 +9,10 @@
 }
 
 
+header {
+    background-color: #363636;
+    padding-top: 20px;
+} 
 .navbar ul{
     display: flex;
     list-style: none;
@@ -20,24 +24,25 @@
 }
 
 .navbar ul li a{
-    color:#535353;
+    color:#ffffff;
 }
 
 .navbar ul li a:hover{
-    color: #86448C;
+    color: #FBFFD1;
     text-decoration:underline;
 }
 
 
+.search{
+    border-radius: 5px;
+}
+
 body{ 
-    padding-top: 20px;
-    /* padding-left: 60px;
-    padding-right: 60px; */
     font-family: Poppins;
 } 
 
 .coverImg{
-    width: 100%;
+    width: 80%;
 }
 
 /* not working on h2,h3 */
