@@ -7,12 +7,14 @@ if(have_posts()) :while(have_posts()) : the_post();
 <div class="container-fluid">
     <div class="row">
         <div class="col-3">
-            <main>
-                <div><?php the_title(); ?></div>
-            </main>
+           
         </div>
 
         <div class="col-9">
+        <main>
+                <div><?php the_title(); ?></div>
+            </main>
+            
             <main>
                 <div><?php the_excerpt(); ?></div>
             </main>

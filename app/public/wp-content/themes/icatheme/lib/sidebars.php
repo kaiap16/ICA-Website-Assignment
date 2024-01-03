@@ -1,13 +1,13 @@
 <?php
 
     function ica_sidebar_widgets(){
-        register_sidebar(array(
-            'id' => 'primary-sidebar',
-            'name' => 'Primary Sidebar',
-            'description' => 'Sidebar for blog posts page',
-            'before_widget' => '<section id="%1$s" class="sidebar-widget %2$s">', //generates id
-            'after_widget' => '</section>'
-        ));
+        // register_sidebar(array(
+        //     'id' => 'primary-sidebar',
+        //     'name' => 'Primary Sidebar',
+        //     'description' => 'Sidebar for blog posts page',
+        //     'before_widget' => '<section id="%1$s" class="sidebar-widget %2$s">', //generates id
+        //     'after_widget' => '</section>'
+        // ));
 
         register_sidebar(array(
             'id' => 'second-sidebar',

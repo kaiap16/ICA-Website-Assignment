@@ -24,6 +24,7 @@
 		
 	</div>
     <div class="row">
+		
 <!-- The Loop -->
 <?php 
 	$args = array('section_title' => 'Home');
