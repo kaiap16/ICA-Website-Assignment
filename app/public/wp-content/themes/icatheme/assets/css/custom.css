@@ -11,7 +11,7 @@
 
 header {
     background-color: #363636;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 } 
 .navbar ul{
     display: flex;
@@ -42,7 +42,7 @@ body{
 } 
 
 .coverImg{
-    width: 80%;
+    width: 100%;
 }
 
 /* not working on h2,h3 */
@@ -57,7 +57,7 @@ h1{
     background-color: #A264A8;
 }
 
-footer{
+/* footer{
     padding-left: 20px;
     padding-right: 20px;
-}
+} */
