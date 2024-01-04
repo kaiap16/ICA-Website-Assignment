@@ -11,7 +11,7 @@
 
 header {
     background-color: #363636;
-    /* padding-top: 20px; */
+    padding-top: 20px;
 } 
 .navbar ul{
     display: flex;
@@ -31,9 +31,8 @@ header {
     color: #FBFFD1;
 }
 
-
-.search{
-    border-radius: 5px;
+.logo{
+width: 170%;
 }
 
 body{ 

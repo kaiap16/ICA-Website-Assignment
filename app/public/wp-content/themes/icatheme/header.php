@@ -14,6 +14,7 @@
 <header>
 <div class="container-fluid">
   <div class="row">
+    <div class="col-1"> <a href="http://ica-website-assignment.local/"> <img src="../../logo-white" class="logo" alt="MCAST Logo in white"></div> </a>
     <div class="col-8">
       <nav id="ica-main-menu" class="navbar">
         <?php
@@ -23,7 +24,7 @@
         ?>
       </nav>
     </div>
-    <div class="col-4" ><?php get_search_form(true)?></div>
+    <div class="col-3" ><?php get_search_form(true)?></div>
   </div>  
 </div>
 </header>
