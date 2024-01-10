@@ -28,14 +28,6 @@
             'after_widget' => '</section>'
         ));
 
-        // register_sidebar(array(
-        //     'id' => 'second-sidebar',
-        //     'name' => 'Second Sidebar',
-        //     'description' => 'Sidebar for blog posts page',
-        //     'before_widget' => '<section id="%1$s" class="sidebar-widget %2$s">', //generates id
-        //     'after_widget' => '</section>'
-        // ));
-
     }
 
     function ica_footer_sidebars(){

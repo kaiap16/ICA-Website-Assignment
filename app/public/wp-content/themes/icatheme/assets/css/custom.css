@@ -49,13 +49,40 @@ h1{
     font-family: Oswald;
 }
 
+h2{
+    color: #86448C;
+    font-family: Oswald;
+    font-weight:400;
+}
+
 #button {
     color: white;
     border-radius: 10px;
     background-color: #A264A8;
 }
 
+#button:hover {
+    color: white;
+    border-radius: 10px;
+    background-color: #86448C;
+}
+
 /* footer{
     padding-left: 20px;
     padding-right: 20px;
 } */
+
+
+.sidebar-style ul {
+    list-style-type: none;
+    border: #363636;
+}
+
+.sidebar-style ul li a{
+    color: #363636;
+   ;
+}
+
+.sidebar-style ul li a:hover{
+    color: purple;
+}
