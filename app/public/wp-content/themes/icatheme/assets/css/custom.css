@@ -86,3 +86,17 @@ h2{
 .sidebar-style ul li a:hover{
     color: purple;
 }
+
+/* ASK SIR FOR HELP about styling for pagination in courses page*/
+
+/* ------------------Courses styling issue------------------ */
+.page-numbers nav span {
+    color:#363636;
+    font-weight: bold;
+}
+
+.page-numbers nav span:hover  {
+    color:#363636;
+}
+/* ------------------Courses styling issue end------------------ */
+
