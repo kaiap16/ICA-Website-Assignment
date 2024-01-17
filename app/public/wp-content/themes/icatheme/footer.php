@@ -10,10 +10,10 @@
 ?>
 
 <div class="container-fluid <?php echo $footer_class." ".$footer_text;?>">
-  <div class="row">
+  <div class="row footer-style">
       <?php
     
-        $footer_layout = get_theme_mod('firstexample_footer_widget_count','3');
+        $footer_layout = get_theme_mod('firstexample_footer_widget_count','2');
         $sidebars_active = false;
 
         for($i=0;$i<$footer_layout;$i++){
@@ -39,31 +39,19 @@
 
   </div>
   <div class="row">
-      <?php
-    
-        $footer_layout = get_theme_mod('firstexample_footer_widget_count','1');
-        $sidebars_active = false;
 
-        for($i=0;$i<$footer_layout;$i++){
-          if(is_active_sidebar('footer-sidebar-'. ($i+1))){
-            $sidebars_active = true;
-          }
-        }
+<div class="col-4"></div> 
 
-        if($sidebars_active):
-          for($i=0;$i<$footer_layout;$i++):
+      <div class="col-4">
+        <?php
+  
+  if(is_active_sidebar('footer-sidebar-bottom')){
+    dynamic_sidebar('footer-sidebar-bottom');
+  }
 
-            echo "<div class='col'>";
-            if(is_active_sidebar('footer-sidebar-'. ($i+1))){
-              dynamic_sidebar('footer-sidebar-'. ($i+1));
-            }
-            echo "</div>";
-            
-          endfor;
-        endif;
-
-      ?>
-
+         ?>
+      </div> 
+      <div class="col-4"></div>
 
   </div>
 
