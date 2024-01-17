@@ -8,8 +8,7 @@ customizer - how its built
 
 stylesheets (wp and mine) and enque assets
 
-sidebars - coded and use--> 
-
+sidebars - coded and used--> 
 
 # Header
 - header.php contains the necessary structure to create the layout of the navigation bar and search field at the top of the screen. It is mainly written in HTML and PHP (for functionality of search field). The !DOCTYPE declaration is used to specify the document is written in HTML. 
@@ -47,4 +46,25 @@ sidebars.php is used to register the functions for sidebars. Registering a sideb
 ![image](https://github.com/kaiap16/ICA-Website-Assignment/assets/106373404/3083f26a-4347-41f6-b9e5-69429ed6d8cd)
 
 # Plugins
+It is important that the plugins are not deactivated or deleted as this will disrupt the structure of the theme.
+
+## Elementor
+This is the main plugin that structures the layout of this theme. This plugin uses a drag and drop interface that gives the administrator more creative freedom over the layout of the pages in their site. It provides a 
+
+## PowerPack Addons for Elementor (Free Widgets, Extensions and Templates)
+This plugin is used as an add-on of the widgets available in the free version of Elementor. Without it, some of the layouts of the site would not look well-structured. If one were to buy the paid version of this plugin, the site could have more interactive and moving elements. 
+
+![image](https://github.com/kaiap16/ICA-Website-Assignment/assets/106373404/f5f93ebe-0d52-4ac9-b9ae-39f667f36e25)
+
+
+## Formidable Forms – Contact Form, Survey, Quiz, Payment, Calculator Form & Custom Form Builder
+Formidable Forms is used to create the layout of the form used in the Contact Us page. These forms can be customized with different fields for different purposes, and also provides different templates to use as needed. 
+
+![image](https://github.com/kaiap16/ICA-Website-Assignment/assets/106373404/f8782c4c-6268-4c55-b032-53b466956788)
+
+(The form as implemented in the site)
+![image](https://github.com/kaiap16/ICA-Website-Assignment/assets/106373404/16ba3a8c-a38b-46bd-8949-b73e9d007e43)
+
+(The customizable elements and templates provided by Formidable Forms)
+![image](https://github.com/kaiap16/ICA-Website-Assignment/assets/106373404/4bf4c64a-998f-4a56-a390-a7f3a82197bb)
 
