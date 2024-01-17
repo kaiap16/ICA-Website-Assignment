@@ -16,7 +16,7 @@
   <div class="row">
     <div class="col-1"> <a href="http://ica-website-assignment.local/"> <img src="../../logo-white" class="logo" alt="MCAST Logo in white"></div> </a>
     <div class="col-8">
-      <nav id="ica-main-menu" class="navbar">
+      <nav id="ica-main-menu" class="navbar ">
         <?php
           wp_nav_menu(array(
             'theme_location' => 'main-menu'

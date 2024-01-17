@@ -40,9 +40,9 @@
   </div>
   <div class="row">
 
-<div class="col-4"></div> 
+<div class="col-4 col-sm-1"></div> 
 
-      <div class="col-4">
+      <div class="col-4 col-sm-10">
         <?php
   
   if(is_active_sidebar('footer-sidebar-bottom')){
@@ -51,7 +51,7 @@
 
          ?>
       </div> 
-      <div class="col-4"></div>
+      <div class="col-4 col-sm-1"></div>
 
   </div>
 
