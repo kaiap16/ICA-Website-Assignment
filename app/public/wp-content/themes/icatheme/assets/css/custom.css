@@ -112,4 +112,9 @@ h3{
 
 .footer-style a{
     color: white;
+    line-height: 1;
+}
+
+.footer-style {
+    padding-top: 20px;
 }
