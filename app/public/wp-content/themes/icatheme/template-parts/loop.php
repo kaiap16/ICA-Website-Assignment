@@ -12,7 +12,7 @@
 					'next_text' => "Older"
                 ));
 
-				else : echo "<p> Sorry, no posts found. </p>";
+				else: echo "<p> Sorry, no posts found. </p>";
 				endif; 
 			?>
 		</div>	

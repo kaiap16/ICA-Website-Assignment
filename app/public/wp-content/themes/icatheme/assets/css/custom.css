@@ -54,6 +54,12 @@ h2{
     font-family: Oswald;
     font-weight:400;
 }
+h3{
+    color: #86448C;
+    font-family: Oswald;
+    font-weight:400;
+    font-size: 30px;
+}
 
 #button {
     color: white;
@@ -99,3 +105,13 @@ h2{
     color:#363636;
 }
 /* ------------------Courses styling issue end------------------ */
+
+.search-design{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.search-title{
+    padding-top: 30px;
+    padding-left: 30px;
+}
