@@ -63,7 +63,8 @@ sidebars.php is used to register the functions for sidebars. Registering a sideb
 It is important that the plugins are not deactivated or deleted as this will disrupt the structure of the theme.
 
 ## Elementor
-- This is the main plugin that structures the layout of this theme. This plugin uses a drag and drop interface that gives the administrator more creative freedom over the layout of the pages in their site. It provides the administrator of the site
+- This is the main plugin that structures the layout of this theme. This plugin uses a drag and drop interface that gives the administrator more creative freedom over the layout of the pages in their site. It provides the administrator of the site.
+  
 ![image](https://github.com/kaiap16/ICA-Website-Assignment/assets/106373404/af8d9952-ed27-42d4-ac66-ce3f4f3ea082)
 
 ## PowerPack Addons for Elementor (Free Widgets, Extensions and Templates)
